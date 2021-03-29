@@ -4,7 +4,7 @@ import Layout from "../components/Layout"
 export default function Kontakte() {
   return (
     <Layout>
-      <div className="text-4xl bg-biscay-400 text-laRioja-500 ">
+      <div className="p-12 text-4xl bg-biscay-400 text-laRioja-500 ">
         Hello world!
       </div>
     </Layout>
