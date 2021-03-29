@@ -1,6 +1,7 @@
 ---
 title: Aktivitetet e kuadrit arsimor
-year: 2016-17
+category: Aktivitet
+year: 2016/2017
 ---
 
 ## Aktivitetet e kuadrit arsimor

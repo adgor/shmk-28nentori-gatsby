@@ -1,6 +1,7 @@
 ---
 title: Aktivitetet e kuadrit arsimor
-year: 2014/15
+category: Aktivitet
+year: 2014/2015
 ---
 
 ## Aktivitetet e kuadrit arsimor
