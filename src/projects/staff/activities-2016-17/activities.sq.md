@@ -2,6 +2,7 @@
 title: Aktivitetet e kuadrit arsimor
 category: Aktivitet
 year: 2016/2017
+slug: stafi-2016-2017
 ---
 
 ## Aktivitetet e kuadrit arsimor

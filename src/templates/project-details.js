@@ -1,15 +1,20 @@
+import { graphql } from "gatsby"
 import Layout from "../components/Layout"
 import React from "react"
-import Img from "gatsby-image"
+// import Img from "gatsby-image"
 
-export default function ProjectDetail() {
+export default function ProjectDetails({ data }) {
+  const { html } = data.markdownRemark
+  const { title, year, category } = data.markdownRemark.frontmatter
+
   return (
     <Layout>
       <div>
-        <h2>title</h2>
-        <h3>subTitle</h3>
+        <h2>{title}</h2>
+        <h3>{category}</h3>
+        <p>{year}</p>
         <div> {/* <Img fluid={} />{" "} */}</div>
-        {/* <div dangerouslySetInnerHTML={} /> */}
+        <div dangerouslySetInnerHTML={{ __html: html }} />
       </div>
 
       {/* <section class=" text-paleSky-600 body-font">
@@ -83,3 +88,16 @@ export default function ProjectDetail() {
     </Layout>
   )
 }
+
+export const query = graphql`
+  query ProjectsDetails($slug: String) {
+    markdownRemark(frontmatter: { slug: { eq: $slug } }) {
+      html
+      frontmatter {
+        title
+        year
+        category
+      }
+    }
+  }
+`

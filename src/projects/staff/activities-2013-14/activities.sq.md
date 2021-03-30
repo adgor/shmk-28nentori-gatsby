@@ -2,6 +2,7 @@
 title: Aktivitetet e kuadrit arsimor
 category: Aktivitet
 year: 2013/2014
+slug: stafi-2013-2014
 ---
 
 ## Aktivitetet e kuadrit arsimor

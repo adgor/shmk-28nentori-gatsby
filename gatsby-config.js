@@ -20,13 +20,6 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `school-info`,
-        path: `${__dirname}/src/school-info/`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
         name: `projects`,
         path: `${__dirname}/src/projects/`,
       },

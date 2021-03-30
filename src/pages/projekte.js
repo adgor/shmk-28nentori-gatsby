@@ -27,7 +27,7 @@ export default function Projekte({ data }) {
                     {project.frontmatter.title}
                   </h2>
                   <Link
-                    to={"/projects/" + project.frontmatter.year}
+                    to={"/projects/" + project.frontmatter.slug}
                     className="inline-flex items-center mt-4 text-ceriseRed-500"
                   >
                     Lexo më shumë
@@ -66,6 +66,7 @@ export const query = graphql`
           title
           category
           year
+          slug
         }
         id
       }
